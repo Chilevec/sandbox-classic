@@ -19,7 +19,8 @@ public partial class BaseWeapon : Component
 	[Property] public int MaxClip { get; set; } = 18;
 
 	[Sync] public bool IsReloading { get; set; }
-	
+	[Sync] public int AmmoAmount { get; set; }
+	[Sync] public int AmountInClip { get; set; }
 	[Sync] public RealTimeSince TimeSinceReload { get; set; }
 	[Sync] public RealTimeSince TimeSinceDeployed { get; set; }
 	[Sync] public RealTimeSince TimeSincePrimaryAttack { get; set; }
