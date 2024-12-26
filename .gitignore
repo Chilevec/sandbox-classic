@@ -27,3 +27,4 @@ Exports/
 
 # Libraries
 Libraries/
+*.scene_c
