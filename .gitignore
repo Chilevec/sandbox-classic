@@ -28,3 +28,5 @@ Exports/
 # Libraries
 Libraries/
 *.scene_c
+*.prefab_c
+*.vpcf_c
