@@ -28,6 +28,8 @@ public sealed class PropHelper : Component, Component.ICollisionListener
 	protected override void OnStart()
 	{
 		Prop ??= GetComponent<Prop>();
+		if ( !Prop.IsValid() ) return;
+		
 		Prop.OnPropBreak += OnBreak;
 
 		ModelPhysics ??= GetComponent<ModelPhysics>();

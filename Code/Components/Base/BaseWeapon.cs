@@ -15,8 +15,11 @@ public partial class BaseWeapon : Component
 	[Property] public float PrimaryRate { get; set; } = 5.0f;
 	[Property] public float SecondaryRate { get; set; } = 15.0f;
 	[Property] public float ReloadTime { get; set; } = 3.0f;
+	[Property] public int MaxAmmo { get; set; } = 150;
+	[Property] public int MaxClip { get; set; } = 18;
 
 	[Sync] public bool IsReloading { get; set; }
+	
 	[Sync] public RealTimeSince TimeSinceReload { get; set; }
 	[Sync] public RealTimeSince TimeSinceDeployed { get; set; }
 	[Sync] public RealTimeSince TimeSincePrimaryAttack { get; set; }
