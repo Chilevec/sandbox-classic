@@ -28,3 +28,5 @@ Exports/
 
 # Libraries
 Libraries/
+*.prefab_c
+*.vpcf_c
