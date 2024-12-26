@@ -27,3 +27,5 @@ Exports/
 
 # Libraries
 Libraries/
+Assets/scenes/game.scene_c
+Assets/scenes/menu.scene_c
